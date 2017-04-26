@@ -1,2 +1,2 @@
 # OCPJP
-Code samples for OCPJP study
+This project contains code samples for OCPJP study
