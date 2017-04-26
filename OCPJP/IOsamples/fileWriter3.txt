@@ -1,0 +1,2 @@
+Hello everybody.
+I am creating a file using the PrintWriter class.
