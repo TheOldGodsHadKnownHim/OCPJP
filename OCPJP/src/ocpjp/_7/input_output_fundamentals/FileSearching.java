@@ -11,9 +11,6 @@ import java.io.File;
  */
 public class FileSearching {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 
 		//Create a string array to store any search results
@@ -25,8 +22,6 @@ public class FileSearching {
 		//Iterate over the array and print out the results of what is contained therein
 		for (String file : files){
 			System.out.println("Found: " + file);
-		}
-		
+		}		
 	}
-
 }

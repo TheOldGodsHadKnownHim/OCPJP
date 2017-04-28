@@ -14,7 +14,6 @@ public class _1_assertions {
 		//assertions remove a lot of code from the equation
 		assert(resolveAge(7));
 		getRound();
-
 	}
 
 	public static boolean resolveAge(int x) {

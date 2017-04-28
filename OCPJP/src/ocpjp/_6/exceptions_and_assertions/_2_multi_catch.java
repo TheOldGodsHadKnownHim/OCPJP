@@ -16,8 +16,6 @@ public class _2_multi_catch {
 			System.out.println("Method 1 Exception caught");
 			e.printStackTrace();	
 		}
-		
-		
 		//Compiler will know the 2 candidate exceptions
 		try {
 			int z = divideTwoOfTheKidsAges2(kidsAges[3], 0);
@@ -26,9 +24,6 @@ public class _2_multi_catch {
 			System.out.println("Method 2 Exception caught");
 			e.printStackTrace();	
 		}
-		
-		
-
 	}
 	
 	public static int divideTwoOfTheKidsAges(int x, int y){
@@ -39,7 +34,4 @@ public class _2_multi_catch {
 	public static int divideTwoOfTheKidsAges2(int x, int y) throws ArrayIndexOutOfBoundsException, ArithmeticException{
 		return x/y;
 	}
-	
-	
-
 }
