@@ -17,9 +17,11 @@ public class ResourceBundle_Example1 {
 	 */
 	public static void main(String[] args) {
 
-		Locale locale = new Locale(args[0]);
+		Locale locale = new Locale("fr");
 		ResourceBundle resourceBundle =  ResourceBundle.getBundle("Labels", locale);
 		System.out.println(resourceBundle.getString("hello"));
+		
+		System.out.printf("%3$s %3$s %s", "A", "B", "C"); 
 	}
 
 }
