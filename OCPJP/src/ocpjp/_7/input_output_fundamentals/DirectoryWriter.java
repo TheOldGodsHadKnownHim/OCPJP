@@ -14,9 +14,6 @@ import java.io.PrintWriter;
  */
 public class DirectoryWriter {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {		
 		/*
 		 * Creating a directory is a two step process. First we create a File object and then we create

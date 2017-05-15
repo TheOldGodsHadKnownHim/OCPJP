@@ -31,6 +31,9 @@ public enum Days {
 		Days.THURSDAY.printWorkSchedule();
 		Days.SATURDAY.printWorkSchedule();
 		Days.SUNDAY.printWorkSchedule();
+		
+		//will cause IllegalArgumentException
+		System.out.println(Days.valueOf("friday"));
 	}
 
 }

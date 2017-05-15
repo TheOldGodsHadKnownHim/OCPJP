@@ -3,6 +3,9 @@
  */
 package ocajp._0_Recap.enums;
 
+import java.util.TreeSet;
+import java.*;
+
 /**
  * @author keithclarges
  *
@@ -22,6 +25,18 @@ public class EnumPractice {
 		Days.THURSDAY.printWorkSchedule();
 		Days.SATURDAY.printWorkSchedule();
 		Days.SUNDAY.printWorkSchedule();
+		
+		
+		TreeSet<Season> seasons = new TreeSet<>();
+		seasons.add(Season.WINTER);
+		seasons.add(Season.AUTUMN);
+		seasons.add(Season.SUMMER);
+		seasons.add(Season.SPRING);
+		
+		for (Season str : seasons){
+			System.out.println(str);
+		}
+		
 	}
 
 	private static void printAllRefGrades() {
@@ -58,4 +73,6 @@ public class EnumPractice {
 		}
 
 	}
+	
+
 }
