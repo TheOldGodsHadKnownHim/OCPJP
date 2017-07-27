@@ -8,6 +8,7 @@ public class AnimalFeedTime {
 		Bird bird = new Bird();
 		Lion lion = new Lion();
 		Cow cow = new Cow();
+		Animal animal = new Cow();
 		
 		//all animals call the same method that they have inherited from their
 		//abstract superclass. However, how they have all chosen to implement
@@ -19,6 +20,8 @@ public class AnimalFeedTime {
 		hearAnimal(bird);
 		hearAnimal(lion);
 		hearAnimal(cow);
+		hearAnimal(animal);
+		feedAnimal(animal);
 
 	}
 	//look how much shorter and more efficient the feedAnimal method can be
