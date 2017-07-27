@@ -12,11 +12,14 @@ import java.io.File;
 public class FileSearching {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	/**
 	 * @param args
 	 */
 =======
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 	public static void main(String[] args) {
 
 		//Create a string array to store any search results
@@ -29,6 +32,7 @@ public class FileSearching {
 		for (String file : files){
 			System.out.println("Found: " + file);
 <<<<<<< HEAD
+<<<<<<< HEAD
 		}
 		
 	}
@@ -37,4 +41,8 @@ public class FileSearching {
 		}		
 	}
 >>>>>>> dev_keith
+=======
+		}		
+	}
+>>>>>>> dev_kc
 }

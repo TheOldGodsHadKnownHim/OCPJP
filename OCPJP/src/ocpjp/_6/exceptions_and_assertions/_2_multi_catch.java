@@ -17,10 +17,13 @@ public class _2_multi_catch {
 			e.printStackTrace();	
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 		
 =======
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 		//Compiler will know the 2 candidate exceptions
 		try {
 			int z = divideTwoOfTheKidsAges2(kidsAges[3], 0);
@@ -30,11 +33,14 @@ public class _2_multi_catch {
 			e.printStackTrace();	
 		}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 		
 
 =======
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 	}
 	
 	public static int divideTwoOfTheKidsAges(int x, int y){
@@ -46,9 +52,12 @@ public class _2_multi_catch {
 		return x/y;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 	
 
 =======
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 }

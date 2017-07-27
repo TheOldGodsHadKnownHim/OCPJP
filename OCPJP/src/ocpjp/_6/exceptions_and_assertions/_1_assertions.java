@@ -13,6 +13,7 @@ public class _1_assertions {
 		
 		//assertions remove a lot of code from the equation
 <<<<<<< HEAD
+<<<<<<< HEAD
 		assert(resolveAge(7));
 		getRound();
 
@@ -21,12 +22,18 @@ public class _1_assertions {
 		getRound();
 		getItDone(-8);
 >>>>>>> dev_keith
+=======
+		assert resolveAge(18) : "customer is too young";
+		getRound();
+		getItDone(-8);
+>>>>>>> dev_kc
 	}
 
 	public static boolean resolveAge(int x) {
 		boolean isEighteen = false;
 				
 		if (x >= 18) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 			System.out.println("In you go");
 			isEighteen = true;
@@ -36,6 +43,10 @@ public class _1_assertions {
 			isEighteen = true;
 		} else if (x < 18) {
 >>>>>>> dev_keith
+=======
+			isEighteen = true;
+		} else if (x < 18) {
+>>>>>>> dev_kc
 			isEighteen = false;
 		}
 		return isEighteen;
@@ -45,7 +56,10 @@ public class _1_assertions {
 		System.out.println("Customer buys round for friends");
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> dev_kc
 	
 	public static void getItDone(int counter){
 		assert counter > 0 : "less than zero";
@@ -53,5 +67,8 @@ public class _1_assertions {
 			
 		}
 	}
+<<<<<<< HEAD
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 }

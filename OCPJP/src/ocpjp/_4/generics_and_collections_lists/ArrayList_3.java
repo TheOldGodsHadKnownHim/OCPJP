@@ -21,14 +21,20 @@ public class ArrayList_3 {
 		System.out.println(maisieToys.add("Wilf"));//prints true - [Wilf]
 		System.out.println(maisieToys.add("Blocks"));//prints true - [Wilf, Blocks]
 <<<<<<< HEAD
+<<<<<<< HEAD
 		maisieToys.add(1,"Giraffe");//void return type - can't print - [Wilf, Giraffe, Blocks]
 		System.out.println(maisieToys.set(1,"Annabel"));//prints Giraffe - [Wilf, Annabel, Blocks]
 =======
+=======
+>>>>>>> dev_kc
 		//maisieToys.add(1,"Giraffe");//void return type - can't print - [Wilf, Giraffe, Blocks]
 		//System.out.println(maisieToys.set(1,"Annabel"));//prints Giraffe - [Wilf, Annabel, Blocks]
 		maisieToys.add("Porridge");
 		System.out.println(maisieToys);
+<<<<<<< HEAD
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 
 
 		

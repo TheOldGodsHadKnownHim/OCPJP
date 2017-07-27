@@ -14,6 +14,7 @@ public class Tokenizing_Example {
 	 */
 	public static void main(String[] args) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 		/*
 		 * args[0] = "ab5 ccc 45 @" 
@@ -29,6 +30,8 @@ public class Tokenizing_Example {
 			System.out.println(">" + s + "<");
 		}
 =======
+=======
+>>>>>>> dev_kc
 
 		/*
 		 * args[0] = "ab5 ccc 45 @" args[1] = "\d"
@@ -51,7 +54,10 @@ public class Tokenizing_Example {
 			System.out.println(st.nextToken());
 		}
 
+<<<<<<< HEAD
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 	}
 
 }

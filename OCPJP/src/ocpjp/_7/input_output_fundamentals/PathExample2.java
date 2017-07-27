@@ -21,6 +21,7 @@ public class PathExample2 {
 	public static void main(String[] args) throws IOException {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		Path path = Paths.get("pathWriter1.txt");
 		/*
 		 * With NIO2 you can call static methods on Files rather than instance methods on File
@@ -53,6 +54,8 @@ public class PathExample2 {
 	}
 	
 =======
+=======
+>>>>>>> dev_kc
 //		Path path = Paths.get("pathWriter1.txt");
 //		/*
 //		 * With NIO2 you can call static methods on Files rather than instance methods on File
@@ -140,7 +143,10 @@ public class PathExample2 {
 	}
 	
 	
+<<<<<<< HEAD
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 
 
 }

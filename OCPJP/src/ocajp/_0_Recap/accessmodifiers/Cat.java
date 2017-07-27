@@ -4,10 +4,14 @@ import ocajp._0_Recap.cat.BigCat;
 
 public class Cat {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 	
 >>>>>>> dev_keith
+=======
+	
+>>>>>>> dev_kc
 	public static void main(String[] args) {
 		
 		BigCat cat = new BigCat();

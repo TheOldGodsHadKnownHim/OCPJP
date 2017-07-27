@@ -18,16 +18,22 @@ public class ResourceBundle_Example1 {
 	public static void main(String[] args) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		Locale locale = new Locale(args[0]);
 		ResourceBundle resourceBundle =  ResourceBundle.getBundle("Labels", locale);
 		System.out.println(resourceBundle.getString("hello"));
 =======
+=======
+>>>>>>> dev_kc
 		Locale locale = new Locale("fr");
 		ResourceBundle resourceBundle =  ResourceBundle.getBundle("Labels", locale);
 		System.out.println(resourceBundle.getString("hello"));
 		
 		System.out.printf("%3$s %3$s %s", "A", "B", "C"); 
+<<<<<<< HEAD
 >>>>>>> dev_keith
+=======
+>>>>>>> dev_kc
 	}
 
 }
