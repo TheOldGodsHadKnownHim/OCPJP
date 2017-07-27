@@ -16,6 +16,16 @@ public class HashMapExample {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+<<<<<<< HEAD
+=======
+		
+		
+
+System.out.printf("This is %1$s %1$s %1$s", "what", "it", "is"); 
+System.out.printf("\n"); 
+
+ 
+>>>>>>> dev_keith
 
 		/*
 		 * A HashMap stores keys in a hash table. This means that it uses the hashCode() method
@@ -27,6 +37,19 @@ public class HashMapExample {
 		 */
 		Map <String, String> faveRestaurants = new HashMap<>();
 		
+<<<<<<< HEAD
+=======
+
+		
+		faveRestaurants.put("0", null);
+		System.out.println(faveRestaurants.get("0"));//prints Taste Food Company
+		faveRestaurants.put(null, "bla[]]h");
+
+		System.out.println(faveRestaurants.get(null));//prints Taste Food Company
+		System.out.println(faveRestaurants.get(null));//prints Taste Food Company
+
+		
+>>>>>>> dev_keith
 		//add data to the map
 		faveRestaurants.put("1", "Taste Food Company");
 		faveRestaurants.put("2", "Lovely Food Company");

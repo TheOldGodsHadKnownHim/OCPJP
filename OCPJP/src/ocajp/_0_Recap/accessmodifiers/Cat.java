@@ -3,7 +3,11 @@ package ocajp._0_Recap.accessmodifiers;
 import ocajp._0_Recap.cat.BigCat;
 
 public class Cat {
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> dev_keith
 	public static void main(String[] args) {
 		
 		BigCat cat = new BigCat();

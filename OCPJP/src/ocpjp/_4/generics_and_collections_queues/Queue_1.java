@@ -52,5 +52,24 @@ public class Queue_1 {
 		 */
 
 		System.out.println(faveNames.toString());
+<<<<<<< HEAD
+=======
+		
+		faveNames.add("Terry");
+		faveNames.addLast("Dave");
+		faveNames.offerLast("Tom");
+		
+		System.out.println(faveNames.toString());
+		
+		faveNames.pop();
+		
+		System.out.println(faveNames.toString());
+
+		faveNames.push("Wilf");
+		
+		System.out.println(faveNames.toString());
+
+
+>>>>>>> dev_keith
 	}
 }
