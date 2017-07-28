@@ -26,6 +26,4 @@ public class ReaderTest{
 	public static void main(String[] args) {
 		MediaReader mr = new MediaReader();
 		mr.read();
-		
-Date myDate = DateFormat.getd		}
-	}
+	}}
