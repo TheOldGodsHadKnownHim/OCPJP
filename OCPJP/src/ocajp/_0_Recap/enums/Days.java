@@ -31,18 +31,12 @@ public enum Days {
 		Days.THURSDAY.printWorkSchedule();
 		Days.SATURDAY.printWorkSchedule();
 		Days.SUNDAY.printWorkSchedule();
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 		
 		//will cause IllegalArgumentException
 		System.out.println(Days.valueOf("friday"));
->>>>>>> dev_keith
-=======
 		
 		//will cause IllegalArgumentException
 		System.out.println(Days.valueOf("friday"));
->>>>>>> dev_kc
 	}
 
 }

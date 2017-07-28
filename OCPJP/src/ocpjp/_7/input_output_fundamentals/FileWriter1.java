@@ -12,15 +12,9 @@ import java.io.IOException;
  */
 public class FileWriter1 {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	/**
 	 * @param args
 	 */
-=======
->>>>>>> dev_keith
-=======
->>>>>>> dev_kc
 	public static void main(String[] args) {
 
 		/*
@@ -29,13 +23,6 @@ public class FileWriter1 {
 		try {
 			
 			File file = new File("fileWriter1.txt");
-<<<<<<< HEAD
-<<<<<<< HEAD
-			
-=======
->>>>>>> dev_keith
-=======
->>>>>>> dev_kc
 			/*
 			 * if the file doesn't already exist, let's create it. If it is successfully created, true will be
 			 * returned
@@ -45,16 +32,6 @@ public class FileWriter1 {
 			}		
 		} catch (IOException e) {
 			e.printStackTrace();
-<<<<<<< HEAD
-<<<<<<< HEAD
 		}
 		
-	}
-
-}
-=======
-		}}}
->>>>>>> dev_keith
-=======
-		}}}
->>>>>>> dev_kc
+	}}

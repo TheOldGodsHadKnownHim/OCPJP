@@ -52,12 +52,7 @@ public class Queue_1 {
 		 */
 
 		System.out.println(faveNames.toString());
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> dev_kc
-		
+
 		faveNames.add("Terry");
 		faveNames.addLast("Dave");
 		faveNames.offerLast("Tom");
@@ -71,11 +66,5 @@ public class Queue_1 {
 		faveNames.push("Wilf");
 		
 		System.out.println(faveNames.toString());
-
-
-<<<<<<< HEAD
->>>>>>> dev_keith
-=======
->>>>>>> dev_kc
 	}
 }

@@ -16,22 +16,9 @@ public class HashMapExample {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> dev_kc
-		
-		
 
 System.out.printf("This is %1$s %1$s %1$s", "what", "it", "is"); 
 System.out.printf("\n"); 
-
- 
-<<<<<<< HEAD
->>>>>>> dev_keith
-=======
->>>>>>> dev_kc
 
 		/*
 		 * A HashMap stores keys in a hash table. This means that it uses the hashCode() method
@@ -42,14 +29,7 @@ System.out.printf("\n");
 		 * If you wanted to maintain the order in which you inserted the items you could use a TreeMap
 		 */
 		Map <String, String> faveRestaurants = new HashMap<>();
-		
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> dev_kc
 
-		
 		faveRestaurants.put("0", null);
 		System.out.println(faveRestaurants.get("0"));//prints Taste Food Company
 		faveRestaurants.put(null, "bla[]]h");
@@ -57,11 +37,6 @@ System.out.printf("\n");
 		System.out.println(faveRestaurants.get(null));//prints Taste Food Company
 		System.out.println(faveRestaurants.get(null));//prints Taste Food Company
 
-		
-<<<<<<< HEAD
->>>>>>> dev_keith
-=======
->>>>>>> dev_kc
 		//add data to the map
 		faveRestaurants.put("1", "Taste Food Company");
 		faveRestaurants.put("2", "Lovely Food Company");

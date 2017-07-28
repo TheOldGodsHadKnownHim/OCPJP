@@ -29,7 +29,7 @@ public class CatAdmirer {
 		 *  a private variable can only be accessed by code in the 
 		 *  same class. 
 		 */
-		System.out.println(cat.id);
+		//System.out.println(cat.id);
 	}
 
 }
