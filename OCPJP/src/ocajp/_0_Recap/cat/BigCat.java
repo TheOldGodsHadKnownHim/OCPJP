@@ -20,5 +20,4 @@ public class BigCat {
 	public void meow(){
 		System.out.println("MEOW");
 	}
-
 }

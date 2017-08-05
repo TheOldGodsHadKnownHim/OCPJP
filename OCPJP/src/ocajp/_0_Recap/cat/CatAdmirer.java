@@ -1,10 +1,16 @@
 package ocajp._0_Recap.cat;
 
+import ocajp._0_Recap.accessmodifiers.Lion;
+
 public class CatAdmirer {
 
 	public static void main(String[] args) {
 		
 		BigCat cat = new BigCat();
+		
+		Lion lion = new Lion();
+		//will print no problem because a Lion is a BigCat and BigCat is in this package
+		System.out.println(lion.hasFur);
 
 		/*
 		 * name has a public access level and so is visible to
