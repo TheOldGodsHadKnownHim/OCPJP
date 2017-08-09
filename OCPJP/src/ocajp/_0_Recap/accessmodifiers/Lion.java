@@ -7,6 +7,7 @@ public class Lion extends BigCat {
 public static void main(String[] args) {
 		
 		BigCat cat = new Lion();
+		Lion lion = new Lion();
 		/*
 		 * name has a public access level and so is visible to
 		 * any classes no matter what package they are declared
@@ -20,12 +21,16 @@ public static void main(String[] args) {
 		 * same package as BigCat 
 		 */
 		//System.out.println(cat.hasFur);
+		System.out.println(lion.hasFur);
+
+
 		/*
 		 * hasPaws has a default access level and is therefore
 		 * no longer visible as it now being accessed from a 
 		 * class in a different package.
 		 */
 		//System.out.println(cat.hasPaws);
+
 		/*
 		 * Private variable can only be accessed by code in the 
 		 * same class. 
