@@ -12,6 +12,7 @@ public class Outer {
 	public int getX(){
 		String message = "x is " + x;
 		
+		//local inner class
 		class Inner {
 			 private int x = Outer.this.x;
 			 
