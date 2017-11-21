@@ -37,6 +37,9 @@ public class Outer {
 		Outer outer2 = new Outer();
 		Inner inner = outer2.new Inner();
 		inner.go();
+		
+		Inner inner2 = new Outer().new Inner();
+		inner2.go();
 	}
 
 }
