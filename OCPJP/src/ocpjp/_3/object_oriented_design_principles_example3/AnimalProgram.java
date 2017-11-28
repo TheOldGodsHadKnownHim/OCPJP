@@ -30,6 +30,11 @@ public class AnimalProgram {
 		HasTail hasTail = lemur;
 		System.out.println(hasTail.isTailStriped());
 		
+		/*hasTail is of reference type HasTail and as such can only access variables and method of the 
+		 * HasTail interface*/
+		//System.out.println(hasTail.age); compilation error
+		
+		
 		/*
 		 * Here, it is also passed to an instance of its superclass. However,
 		 * it can only access members that object type. In this case this 
@@ -38,13 +43,19 @@ public class AnimalProgram {
 		Primate primate = lemur;
 		System.out.println(primate.hasHair());
 		
+		
+		
 		/*
 		 * Casting objects so as to access all the members of Lemur
 		 */
 		
 		//Casting a superclass object to a subclass object
-		Lemur lemur2 = (Lemur)primate;
+		Lemur lemur2 = (Lemur) primate;
 		System.out.println(lemur2.age);
+		
+		//Casting a superclass object to a subclass object
+		Lemur lemur3 = (Lemur) hasTail;
+		System.out.println(lemur3.age);
 	}
 
 }
