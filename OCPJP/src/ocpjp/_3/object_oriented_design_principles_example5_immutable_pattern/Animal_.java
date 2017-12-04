@@ -11,15 +11,17 @@ public final class Animal_ {
 	private final String species;
 	private final int age;
 	private final List<String> favouriteFoods;
+	private final boolean hasFur;
 
 	//Rule 2 - a constructor is used to set all the properties of the object
-	public Animal_ (String species, int age, List<String> favouriteFoods){
+	public Animal_ (String species, int age, List<String> favouriteFoods, boolean hasFur){
 		this.species=species;
 		this.age=age;
 		if(favouriteFoods == null){
 			throw new RuntimeException("favourite foods is required");
 		}
 		this.favouriteFoods=new ArrayList<String>(favouriteFoods);
+		this.hasFur = hasFur;
 	}
 	
 	//Rule 3 - no setter methods are defined
@@ -29,6 +31,10 @@ public final class Animal_ {
 	
 	public int getAge(){
 		return age;
+	}
+	
+	public boolean getHasFur(){
+		return hasFur;
 	}
 	
 	//Rule 4 - no references to the mutable list are publically available
