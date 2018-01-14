@@ -29,6 +29,9 @@ public class AnimalProgram {
 				setFavouriteFoods(Arrays.asList("whiskas", "bonio")).setHasFur(true).build();
 		/*
 		 * IMMUTABLE
+		 * 
+		 * Because Animal_ has a private constructor any instance to be created needs to be done
+		 * using the AnimalBuilder class
 		 */
 		//Animal_ animal_ = new Animal_("Cat", 6, Arrays.asList("whiskas", "bonio"));
 		
