@@ -24,15 +24,15 @@ public class Referee {
 		this.gamesOfficiated = gamesOfficiated;
 	}
 
-//	@Override
-//	public String toString() {
-//		return ToStringBuilder.reflectionToString(this,
-//				ToStringStyle.SHORT_PREFIX_STYLE);
-//	}
-	
 	@Override
 	public String toString() {
-		return this.name + this.id;
+		return ToStringBuilder.reflectionToString(this,
+				ToStringStyle.SHORT_PREFIX_STYLE);
 	}
+	
+//	@Override
+//	public String toString() {
+//		return this.name + this.id;
+//	}
 
 }

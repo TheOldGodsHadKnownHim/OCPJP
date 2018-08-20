@@ -1,9 +1,9 @@
-package ocpjp._5.string_processing;
+package ocpjp._5.string_processing_resource_bundles;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
 
-public class ResourceBundle_Example2 {
+public class Example2 {
 	
 	/**
 	 * @param args

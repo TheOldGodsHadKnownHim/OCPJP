@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ocpjp._5.string_processing_dates;
+package ocpjp._5.string_processing_numbers;
 
 import java.text.NumberFormat;
 import java.text.ParseException;

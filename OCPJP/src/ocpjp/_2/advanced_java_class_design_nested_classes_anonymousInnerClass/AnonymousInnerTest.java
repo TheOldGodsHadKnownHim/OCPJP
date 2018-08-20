@@ -23,6 +23,8 @@ public class AnonymousInnerTest {
 		int basePrice = 10;
 		int expectedValue = 7;
 		int actualValue = anonymousInner.determineAdmissionPrice(basePrice);
+		
+		System.out.println(actualValue);
 
 		assertTrue(
 				"Test has failed because the actual value returned is not equal to 7. ",
