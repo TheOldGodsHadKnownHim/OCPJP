@@ -19,7 +19,8 @@ package ocpjp._3.object_oriented_design_principles_example4_singleton_pattern;
  */
 public class HayStorage {
 	
-	private int quantity = 0;
+	protected int quantity = 0;
+	private boolean hayAdded;
 	
 	//Constructors are always marked private to ensure that no other class
 	// is capable of instantiating another version of the class. By making
@@ -35,8 +36,10 @@ public class HayStorage {
 	}
 	//synchronized prevents 2 processes from running the same method at the 
 	//exact same time
-	public synchronized void addhay(int amount){
+	public synchronized boolean addHay(int amount){
 		quantity += amount;
+		hayAdded=true;
+		return hayAdded;
 	}
 	
 	public synchronized boolean removeHay(int amount){

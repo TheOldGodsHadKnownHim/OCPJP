@@ -16,7 +16,7 @@ public class LlamaTrainer {
 		HayStorage hayStorage = HayStorage.getInstance();
 
 		if (hayStorage.getHayQuantity() < amountNeeded){
-			hayStorage.addhay(amountNeeded + 10);
+			hayStorage.addHay(amountNeeded + 10);
 		}
 		
 		//check that there's enough hay to feed the llamas as there could

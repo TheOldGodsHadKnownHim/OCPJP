@@ -1,5 +1,5 @@
-package chp1_review_q16;
-
+package ocpjp._1.java_class_design_review_questions;
+//q16
 public class Outer {
 	
 	class Inner {}

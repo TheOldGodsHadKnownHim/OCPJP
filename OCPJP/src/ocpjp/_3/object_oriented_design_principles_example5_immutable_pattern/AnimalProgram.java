@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import ocpjp._3.object_oriented_design_principles_example6_builder_pattern.AnimalBuilder;
 import ocpjp._3.object_oriented_design_principles_example6_factory_pattern.Fish;
 import ocpjp._3.object_oriented_design_principles_example6_factory_pattern.Food;
 import ocpjp._3.object_oriented_design_principles_example6_factory_pattern.FoodFactory;
@@ -21,11 +22,18 @@ public class AnimalProgram {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-
+		
+		AnimalBuilder catBuilder = new AnimalBuilder();
+		
+		Animal_ animal_ = catBuilder.setAge(6).setSpecies("Cat").
+				setFavouriteFoods(Arrays.asList("whiskas", "bonio")).setHasFur(true).build();
 		/*
 		 * IMMUTABLE
+		 * 
+		 * Because Animal_ has a private constructor any instance to be created needs to be done
+		 * using the AnimalBuilder class
 		 */
-		Animal_ animal_ = new Animal_("Cat", 6, Arrays.asList("whiskas", "bonio"));
+		//Animal_ animal_ = new Animal_("Cat", 6, Arrays.asList("whiskas", "bonio"));
 		
 		System.out.println("Animals species is: " + animal_.getSpecies());
 		System.out.println("Animals age is: " + animal_.getAge());

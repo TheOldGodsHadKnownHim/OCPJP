@@ -1,6 +1,6 @@
-package chp1_review_q9;
-
-public class Outer {
+package ocpjp._1.java_class_design_review_questions;
+//q9
+public class OuterQ9 {
 	
 	private int x = 24;
 	
@@ -14,7 +14,7 @@ public class Outer {
 		
 		//local inner class
 		class Inner {
-			 private int x = Outer.this.x;
+			 private int x = OuterQ9.this.x;
 			 
 			 public void printX(){
 				 System.out.println(message + x);
@@ -27,7 +27,7 @@ public class Outer {
 	}
 
 	public static void main(String[] args) {
-			new Outer().getX();
+			new OuterQ9().getX();
 	}
 
 }

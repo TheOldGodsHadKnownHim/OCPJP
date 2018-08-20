@@ -9,8 +9,7 @@ package ocajp._0_Recap.enums;
  */
 public enum OnlyOne {
 	
-	ONCE(true);
-	
+	ONCE(true);	
 	private OnlyOne(boolean b){
 		System.out.println("Calling the OnlyOne constructor");
 	}
@@ -19,7 +18,6 @@ public enum OnlyOne {
 		
 		OnlyOne firstCall = OnlyOne.ONCE;
 		OnlyOne secondCall = OnlyOne.ONCE;
-
 	}
 
 }

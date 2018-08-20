@@ -1,7 +1,7 @@
 /**
  * 
  */
-package ocpjp._5.string_processing;
+package ocpjp._5.string_processing_resource_bundles;
 
 import java.util.Locale;
 import java.util.ResourceBundle;
@@ -10,7 +10,7 @@ import java.util.ResourceBundle;
  * @author keithclarges
  *
  */
-public class ResourceBundle_Example1 {
+public class Example1 {
 
 	/**
 	 * @param args

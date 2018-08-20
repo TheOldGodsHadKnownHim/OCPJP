@@ -3,6 +3,8 @@
  */
 package ocpjp._3.object_oriented_design_principles_example1;
 
+import java.util.function.Predicate;
+
 /**
  * @author keithclarges
  *
@@ -10,33 +12,25 @@ package ocpjp._3.object_oriented_design_principles_example1;
  *         interfaces
  *
  */
-public class FindMatchingAnimals {
+public class FindMatchingAnimals_2 {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 
-		/*
-		 * we are passing a lambda as the second parameter of the print method. The print method
-		 * expects a CheckTrait as the second parameter. Since we are passing a lambda instead, 
-		 * Java treats CheckTrait as a functional interface and tries to map it to a single abstract
-		 * method. 
-		 * 
-		 * Because the interface's method takes an Animal, it means that the lambda parameter has
-		 * to be an animal. 
-		 */
 		print(new Animal("fish", false, true), animal -> animal.canSwim());
 		print(new Animal("kangaroo", true, false), b -> b.canHop());
 		
-		/*
-		 * Another way these expressions can be written
-		 */
 		print(new Animal("fish", false, true),  (Animal animal) -> {return animal.canSwim();});
 		print(new Animal("kangaroo", true, false),  (Animal b) -> {return b.canHop();});
 	}
 
-	private static void print(Animal animal, CheckTrait checkTrait) {
+	/*
+	 * Using this Predicate interface eliminates the need for the CheckTrait interface. It also make 
+	 * the code more reusable. 
+	 */
+	private static void print(Animal animal, Predicate <Animal> checkTrait) {
 		if (checkTrait.test(animal)) {
 			System.out.println(animal);
 		}

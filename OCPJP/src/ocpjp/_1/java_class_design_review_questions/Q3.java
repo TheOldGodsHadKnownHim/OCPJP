@@ -1,4 +1,4 @@
-package chp1_review_q3;
+package ocpjp._1.java_class_design_review_questions;
 
 public class Q3 {
 

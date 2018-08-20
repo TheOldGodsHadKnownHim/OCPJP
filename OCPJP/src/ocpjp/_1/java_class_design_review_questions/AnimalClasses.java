@@ -1,5 +1,5 @@
-package chp1_review_q17;
-
+package ocpjp._1.java_class_design_review_questions;
+//q17
 public enum AnimalClasses {
 	
 	// if the enum contains more detail than just the name, then it must end in a semicolon

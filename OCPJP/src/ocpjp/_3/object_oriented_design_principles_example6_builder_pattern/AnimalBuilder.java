@@ -17,6 +17,7 @@ public class AnimalBuilder {
 	private  String species;
 	private int age;
 	private List<String> favouriteFoods;
+	private boolean hasFur;
 
 	public AnimalBuilder setAge(int age){
 		this.age = age;
@@ -33,6 +34,11 @@ public class AnimalBuilder {
 		return this;
 	}
 	
+	public AnimalBuilder setHasFur(boolean hasFur){
+		this.hasFur = hasFur;
+		return this;
+	}
+	
 	/**
 	 * Method to build an Animal_ object. It is here that the method interacts with Animal_'s
 	 * constructor directly
@@ -40,7 +46,7 @@ public class AnimalBuilder {
 	 * @return a new instance of type Animal_
 	 */
 	public Animal_ build(){
-		return new Animal_(species, age, favouriteFoods);
+		return new Animal_(species, age, favouriteFoods, hasFur);
 	}
 
 }

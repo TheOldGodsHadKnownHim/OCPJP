@@ -1,4 +1,4 @@
-package ocajp_0_Recap_casting;
+package ocajp._0_Recap.casting;
 
 public class Fruit extends Food {
 	

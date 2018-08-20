@@ -17,10 +17,8 @@ public class Nested {
 				System.out.println(this.x);// 30
 				System.out.println(DoubleNested.this.x);// 20
 				System.out.println(Nested.this.x);// 10
-
 			}
 		}
-
 	}
 
 	public static void main(String[] args) {
@@ -29,6 +27,8 @@ public class Nested {
 		Nested.DoubleNested doubleNested = nested.new DoubleNested();
 		Nested.DoubleNested.TripleNested tripleNested = doubleNested.new TripleNested();
 		tripleNested.printAll();
+		
+		Nested.DoubleNested.TripleNested tn = new Nested().new DoubleNested().new TripleNested();
 
 	}
 

@@ -31,7 +31,6 @@ public class Enclosing {
 		int y = nested2.getPenalty();
 		System.out.println(y);
 
-				
 	}
 
 }
