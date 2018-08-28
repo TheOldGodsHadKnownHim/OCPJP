@@ -34,11 +34,27 @@ public class FindMatchingAnimals {
 		 */
 		print(new Animal("fish", false, true),  (Animal animal) -> {return animal.canSwim();});
 		print(new Animal("kangaroo", true, false),  (Animal b) -> {return b.canHop();});
+		
+		
+		/*
+		 * Lambdaing the Sound interface
+		 */
+		printAnimalSound(new Animal("fish", false, true, "blurphblurphblurph"), animal ->  animal.getCallingSound());
+		printAnimalSound(new Animal("kangaroo", true, false, "skippeeeee"), b -> b.getCallingSound());
 	}
 
 	private static void print(Animal animal, CheckTrait checkTrait) {
 		if (checkTrait.test(animal)) {
 			System.out.println(animal);
+		}
+	}
+	
+	private static void printAnimalSound(Animal animal, Sound sound) {
+		if (sound.makeSound(animal) != null && animal.toString().equals("fish")) {
+			System.out.println(animal.getCallingSound());
+		}
+		if (sound.makeSound(animal) != null && animal.toString().equals("kangaroo")) {
+			System.out.println(animal.getCallingSound());
 		}
 	}
 
