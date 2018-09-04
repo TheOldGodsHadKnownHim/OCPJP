@@ -23,9 +23,10 @@ public class AnimalProgram {
 		System.out.println(lemur.age);
 		
 		/*
-		 * Here, the Lemur object is passed to an instance of the interface
+		 * Here, the Lemur object is passed as an instance of the interface
 		 * that it implements. hasTail reference variable only has access to
-		 * the members of the HasTail interface. 
+		 * the members of the HasTail interface because the type of the reference to the object
+		 * determines which methods and variables are accessible to the Java program. 
 		 */
 		HasTail hasTail = lemur;
 		System.out.println(hasTail.isTailStriped());
@@ -49,7 +50,7 @@ public class AnimalProgram {
 		 * Casting objects so as to access all the members of Lemur
 		 */
 		
-		//Casting a superclass object to a subclass object
+		//Casting a superclass object to a subclass object - a primate to a lemur
 		Lemur lemur2 = (Lemur) primate;
 		System.out.println(lemur2.age);
 		

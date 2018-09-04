@@ -23,7 +23,7 @@ public class AnimalBuilderProgram {
 				.setFavouriteFoods(Arrays.asList("Soup, Cheese"));
 
 		// object created with the final build call
-		Animal_ iguana = iguanaBuilder.build();
+		Animal iguana = iguanaBuilder.build();
 		System.out.println(iguana.toString());
 
 		AnimalBuilder cowBuilder = new AnimalBuilder();

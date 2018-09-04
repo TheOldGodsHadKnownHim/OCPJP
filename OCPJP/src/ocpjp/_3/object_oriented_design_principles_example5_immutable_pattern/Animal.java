@@ -3,6 +3,7 @@
  */
 package ocpjp._3.object_oriented_design_principles_example5_immutable_pattern;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**

@@ -10,6 +10,7 @@ package ocpjp._3.object_oriented_design_principles_example4_singleton_pattern;
 public class HayStorage2 {
 
 	private int quantity = 0;
+	// can declare the instance final
 	private static final HayStorage2 instance;
 
 	// static block

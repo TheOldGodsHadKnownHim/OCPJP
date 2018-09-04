@@ -24,7 +24,9 @@ public class HayStorage {
 	
 	//Constructors are always marked private to ensure that no other class
 	// is capable of instantiating another version of the class. By making
-	// the constructors private, the class is effectively marked final
+	// the constructors private, the class is effectively marked final because the first line of any
+	// subclass constructor is always the call to the superclass' constructor, and in this scenario the
+	// superclass' constructor is not visible to any potential subclasses
 	private HayStorage(){};
 	
 	//creation of the singleton - always created as private static variable

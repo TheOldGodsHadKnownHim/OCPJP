@@ -10,12 +10,12 @@ package ocpjp._3.object_oriented_design_principles_example2;
  */
 public class FitnessProgram {
 	
-	public void checkFitnessLevels(FitnessAssessment personToAssess){
-		personToAssess.isFit(9);
+	public void checkFitnessLevels(FitnessAssessment personToAssess, int fitnessScore){
+		personToAssess.isFit(fitnessScore);
 	}
 	
-	public void checkConsistencyLevels(FitnessAssessment personToAssess){
-		personToAssess.isConsistent(3, 0);
+	public void checkConsistencyLevels(FitnessAssessment personToAssess,  int gamesPlayed, int crucialErrors){
+		personToAssess.isConsistent(crucialErrors, gamesPlayed);
 	}
 
 	/**
@@ -23,10 +23,10 @@ public class FitnessProgram {
 	 */
 	public static void main(String[] args) {
 		FitnessProgram fitnessProgram = new FitnessProgram();
-		fitnessProgram.checkFitnessLevels(new Referee());
-		fitnessProgram.checkConsistencyLevels(new Referee());
-		fitnessProgram.checkFitnessLevels(new Player());
-		fitnessProgram.checkConsistencyLevels(new Player());
+		fitnessProgram.checkFitnessLevels(new Referee(), 5);
+		fitnessProgram.checkConsistencyLevels(new Referee(), 9, 300);
+		fitnessProgram.checkFitnessLevels(new Player(), 9);
+		fitnessProgram.checkConsistencyLevels(new Player(), 10, 300);
 
 	}
 

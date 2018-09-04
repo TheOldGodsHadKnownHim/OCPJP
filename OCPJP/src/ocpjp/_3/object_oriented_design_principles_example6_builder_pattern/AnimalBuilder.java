@@ -45,8 +45,8 @@ public class AnimalBuilder {
 	 * 
 	 * @return a new instance of type Animal_
 	 */
-	public Animal_ build(){
-		return new Animal_(species, age, favouriteFoods, hasFur);
+	public Animal build(){
+		return new Animal (species, age, favouriteFoods, hasFur);
 	}
 
 }

@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import ocpjp._3.object_oriented_design_principles_example6_builder_pattern.AnimalBuilder;
+import ocpjp._3.object_oriented_design_principles_example5_immutable_pattern.Animal_.AnimalBuilder;
 import ocpjp._3.object_oriented_design_principles_example6_factory_pattern.Fish;
 import ocpjp._3.object_oriented_design_principles_example6_factory_pattern.Food;
 import ocpjp._3.object_oriented_design_principles_example6_factory_pattern.FoodFactory;
@@ -49,8 +49,8 @@ public class AnimalProgram {
 		 * MUTABLE
 		 */
 		List<String> foods = new ArrayList<String>();
-		foods.add("whiskas");
-		foods.add("bonio");
+		foods.add("whiskas2");
+		foods.add("bonio2");
 		Animal animal = new Animal(foods);
 		System.out.println("Animals fave foods are: " + animal.getFavouriteFoods());
 		/*

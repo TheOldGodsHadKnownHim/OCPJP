@@ -82,7 +82,7 @@ public final class Animal_ {
 		
 		/**
 		 * Method to build an Animal_ object. It is here that the method interacts with Animal_'s
-		 * constructor directly
+		 * private constructor directly
 		 * 
 		 * @return a new instance of type Animal_
 		 */
